@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    
+}
+form{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: rgb(235, 231, 231);
+    padding: 115px 100px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+/* debut section */
+img{
+    width: 100px;
+}
+.box1{
+    margin: 30px;
+    margin-top: 15px;
+    margin-left: 224px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+.box1 > article{
+    background: #eee5e9;
+    border: none;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    margin: -130px;
+}
+.box1 > article img{
+    width: 250px;
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+.text1 h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    background-color: #3850F8;
+    cursor: pointer;
+}
+.contact ul li{
+    display: flex;
+    list-style: none;
+}
+.contact ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.text1 h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+
+
+.text2 h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    background-color: #3850F8;
+    cursor: pointer;
+}
+.langues p{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.text2 h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+
+
+
+.text3 h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    background-color: #3850F8;
+    cursor: pointer;
+}
+.competences p{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.text3 h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+
+
+
+.text4 h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    background-color: #3850F8;
+    cursor: pointer;
+}
+.logiciels p{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.text4 h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+
+
+
+.text5 h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    background-color: #3850F8;
+    cursor: pointer;
+}
+.centres p{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.text5 h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+/* fin section */
+
+
+
+
+
+.box2{
+    margin: 30px;
+    margin-top: -524px;
+    margin-left: 450px;
+    margin-right: -100;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 231, 231);
+}
+.box2 > article{
+    border: none;
+    width: 350px;
+    margin: -130px;
+    color: black;
+}
+.box2 > article img{
+    width: 250px;
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+.texta h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+    margin-top: -330px;
+    cursor: pointer;
+}
+.prof p{
+    display: flex;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.texta h3:hover{
+    transition: 1s;
+    color: #3850F8;
+}
+.prof p:hover{
+    transition: 1s;
+    color: #3850F8;
+}
+.signe{
+    cursor: pointer;
+    text-align: left;
+}
+.signe:hover{
+    transition: 1s;
+    color: #3850F8;
+}
+
+
+.textb{
+    height: 450px;
+    width: 600px;
+    margin-top: 300px;
+    margin-left: -450px;
+}
+
+.textb h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: #3850F8;
+    margin-top: -100px;
+    cursor: pointer;
+}
+.moi p{
+    display: flex;
+    text-align: left;
+    margin-top: 1px;
+    font-size: 20px;
+}
+.textb h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+
+
+.textc h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: #3850F8;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.ex p{
+    display: flex;
+    text-align: left;
+    margin-top: -10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ex p:hover{
+    transition: 1s;
+    color: #3850F8;
+}
+.textb h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+
+
+.textd h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: #3850F8;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.for p{
+    display: flex;
+    text-align: left;
+    margin-top: -12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.for p:hover{
+    transition: 1s;
+    color: #3850F8;
+}
+.textb h3:hover{
+    transition: 1s;
+    color: #3850F8;
+    background-color: #a4a5a8cb;
+}
+
+
+@media screen and (max-width: 1499px) {
+    .texta{
+        width: 500px;
+    }
+}
